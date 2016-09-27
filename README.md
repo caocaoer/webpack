@@ -7,7 +7,10 @@ webpack
 npm install webpack -g
 npm install webpack --save-dev
 ```
-run: webpack
+## run
+```bash
+webpack
+```
 
 - demo01: Entry file
 - demo02: Multiple entry files
