@@ -61,14 +61,42 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+var add = __webpack_require__(1).add;
+exports.increment = function(val) {
+    return add(val, 1);
+};
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: D:/myhome/test/webPack/demo/03/index.jsx: Unexpected token (5:2)\n\n\u001b[0m  3 | \n  4 | ReactDOM\u001b[1m.\u001b[22mrender\u001b[94m\u001b[1m(\u001b[22m\u001b[39m\n> 5 |   \u001b[1m<\u001b[22mh1\u001b[1m>\u001b[22mHello\u001b[1m,\u001b[22m world\u001b[1m!\u001b[22m\u001b[1m<\u001b[22m\u001b[1m/\u001b[22mh1\u001b[1m>\u001b[22m\u001b[1m,\u001b[22m\n    |   ^\n  6 |   document\u001b[1m.\u001b[22mquerySelector\u001b[94m\u001b[1m(\u001b[22m\u001b[39m\u001b[31m'#wrapper'\u001b[39m\u001b[94m\u001b[1m)\u001b[22m\u001b[39m\n  7 | \u001b[94m\u001b[1m)\u001b[22m\u001b[39m\u001b[1m;\u001b[22m\u001b[0m\n");
+exports.add = function(){
+    var sum = 0, 
+        i = 0, 
+        args = arguments, 
+        l = args.length;
+    
+    while (i < l) {
+        sum += args[i++];
+    }
+    
+    return sum;
+};
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+var inc = __webpack_require__(0).increment;
+var a = 1;
+console.log(inc(a));
 
 /***/ }
 /******/ ]);

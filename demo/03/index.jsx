@@ -1,9 +1,7 @@
-var x = 1;
-function foo(x, y = function() { x = 2; }) {
-  var x = 3;
-  y();
-  console.log(x);
-}
+const React = require('react');
+const ReactDOM = require('react-dom');
 
-foo();
-
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.querySelector('#wrapper')
+);

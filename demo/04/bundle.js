@@ -351,7 +351,7 @@ exports = module.exports = __webpack_require__(3)();
 
 
 // module
-exports.push([module.i, "h1{\r\n    background-color: aqua;\r\n    color: chartreuse;\r\n    font-size: 18px;\r\n}", ""]);
+exports.push([module.i, "h1{\r\n    background-color: aqua;\r\n    color: chartreuse;\r\n    font-size: 28px;\r\n}", ""]);
 
 // exports
 
