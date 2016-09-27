@@ -12,8 +12,10 @@ npm install webpack --save-dev
 webpack
 ```
 
-- demo01: Entry file
-- demo02: Multiple entry files
-- demo03: Babel-loader
-- demo04: CSS-loader
-- demo05: Image loader
+- 01: Entry file
+- 02: Multiple entry files
+- 03: Babel-loader
+- 04: CSS-loader
+- 05: Image loader
+- 06: CSS Module
+- 07: UglifyJs Plugin
