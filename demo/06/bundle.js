@@ -11329,7 +11329,7 @@ exports = module.exports = __webpack_require__(91)();
 
 
 // module
-exports.push([module.i, "body{\r\n    background-color: orange;\r\n}\r\n\r\nh1{\r\n    color: blueviolet;\r\n}\r\nh2{\r\n/*:global(h2){*/\r\n    color: pink;\r\n}", ""]);
+exports.push([module.i, "body{\r\n    background-color: orange;\r\n}\r\n\r\nh1{\r\n    color: blueviolet;\r\n}\r\nh2{\r\n    color: pink;\r\n}", ""]);
 
 // exports
 
@@ -21991,23 +21991,35 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 "use strict";
 'use strict';
 
+/*var React = require('react');
+var ReactDOM = require('react-dom');
+var style = require('./index.css');
+
+ReactDOM.render(
+    <div>
+        <h1 className={style.h1}>Hello world</h1>
+        <h2 className="h2">Hello webpack</h2>
+    </div>,
+    document.getElementById('example')
+);*/
+
 var React = __webpack_require__(88);
 var ReactDOM = __webpack_require__(87);
 var style = __webpack_require__(86);
 
 ReactDOM.render(React.createElement(
-    'div',
-    null,
-    React.createElement(
-        'h1',
-        { className: style.h1 },
-        'Hello world'
-    ),
-    React.createElement(
-        'h2',
-        { className: 'h2' },
-        'Hello webpack'
-    )
+  'div',
+  null,
+  React.createElement(
+    'h1',
+    { className: style.h1 },
+    'Hello World'
+  ),
+  React.createElement(
+    'h2',
+    { className: 'h2' },
+    'Hello Webpack'
+  )
 ), document.getElementById('example'));
 
 /***/ }
