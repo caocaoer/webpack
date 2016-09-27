@@ -71,14 +71,6 @@
 "use strict";
 "use strict";
 
-/*const react = require('react');
-const reactDom = require('react-dom');
-
-reactDom.render(
-    <h1>Hello, react!</h1>,
-    document.querySelector('#wrapper')
-);*/
-
 var x = 1;
 function foo(x) {
   var y = arguments.length <= 1 || arguments[1] === undefined ? function () {
