@@ -1,0 +1,11 @@
+body{
+    background-color: orange;
+}
+
+h1{
+    color: blueviolet;
+}
+h2{
+/*:global(h2){*/
+    color: pink;
+}
