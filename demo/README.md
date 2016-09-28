@@ -20,3 +20,5 @@ webpack
 - [06: CSS Module](https://github.com/caocaoer/webPack/tree/master/demo/06)
 - [07: UglifyJs Plugin](https://github.com/caocaoer/webPack/tree/master/demo/07)
 - [08: HTML Webpack Plugin and Open Browser Webpack Plugin](https://github.com/caocaoer/webPack/tree/master/demo/08)
+- [09: Environment flags](https://github.com/caocaoer/webPack/tree/master/demo/09)
+- [10: Code splitting](https://github.com/caocaoer/webPack/tree/master/demo/10)
