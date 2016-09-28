@@ -12,10 +12,10 @@ npm install webpack --save-dev
 webpack
 ```
 
-- 01: Entry file
-- 02: Multiple entry files
-- 03: Babel-loader
-- 04: CSS-loader
-- 05: Image loader
-- 06: CSS Module
-- 07: UglifyJs Plugin
+- [01: Entry file](https://github.com/caocaoer/webPack/tree/master/demo/01)
+- [02: Multiple entry files](https://github.com/caocaoer/webPack/tree/master/demo/02)
+- [03: Babel-loader](https://github.com/caocaoer/webPack/tree/master/demo/03)
+- [04: CSS-loader](https://github.com/caocaoer/webPack/tree/master/demo/04)
+- [05: Image loader](https://github.com/caocaoer/webPack/tree/master/demo/05)
+- [06: CSS Module](https://github.com/caocaoer/webPack/tree/master/demo/06)
+- [07: UglifyJs Plugin](https://github.com/caocaoer/webPack/tree/master/demo/07)
