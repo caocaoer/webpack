@@ -19,3 +19,4 @@ webpack
 - [05: Image loader](https://github.com/caocaoer/webPack/tree/master/demo/05)
 - [06: CSS Module](https://github.com/caocaoer/webPack/tree/master/demo/06)
 - [07: UglifyJs Plugin](https://github.com/caocaoer/webPack/tree/master/demo/07)
+- [08: HTML Webpack Plugin and Open Browser Webpack Plugin](https://github.com/caocaoer/webPack/tree/master/demo/08)
